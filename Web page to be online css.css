@@ -5,3 +5,4 @@ a {color:mediumvioletred;}
 ol, ul {color:rgb(9, 97, 138);}
 form, label, input {color:rgb(14, 118, 102);}
 button {background-color: crimson; color:cyan;}
+::placeholder {text-align:canter;}

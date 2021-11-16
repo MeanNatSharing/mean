@@ -1,8 +1,11 @@
-body {background-color: rgb(255, 214, 233); text-align: left;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
-h1 {color:midnightblue; font-size: 30px;}
-p {color:royalblue; font-size: 17px;}
+body {background-color: rgb(255, 214, 233);text-align: left;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+h1 {color:midnightblue; font-size: 30px; margin-left: 30px;}
+p {color:royalblue; font-size: 17px; margin-left: 50px;}
 a {color:mediumvioletred;}
-ol, ul {color:rgb(9, 97, 138);}
+ol, ul {color:rgb(9, 97, 138);margin-left: 10px;}
 form, label, input {color:rgb(14, 118, 102);}
-button {background-color: crimson; color:cyan;}
-::placeholder {text-align:center;}
+label, input {margin-left: 30px;}
+button {background-color: crimson; color:cyan; margin-left: 30px;}
+::placeholder {text-align: center;}
+#guitar, #violin, #cello, #drum, #more {margin-left: 0px;}
+#arrow-up {margin-left: 900px;}

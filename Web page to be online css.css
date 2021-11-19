@@ -4,9 +4,11 @@ p {color:royalblue; font-size: 17px; margin-left: 50px;}
 a {color:mediumvioletred;}
 ol, ul {color:rgb(9, 97, 138);margin-left: 10px;}
 form, label, input {color:rgb(14, 118, 102);}
-label, input {margin-left: 30px;}
+label{margin-left: 10px;}
 button {background-color: crimson; color:cyan; margin-left: 30px;}
 ::placeholder {text-align: center;}
-#guitar, #violin, #cello, #drum, #more {margin-left: 0px;}
-#arrow-up {margin-left: 900px;}
-#homeicon {margin-left: 30px;}
+#guitar, #violin, #cello, #drum, #more {margin-left: 30px;}
+span {color:rgb(153, 1, 77);margin-left: 0px;}
+img {margin-left: 25px;}
+#piano {margin-left: 40px;}
+#play, #never {margin-left: 10px;}

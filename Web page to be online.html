@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Music</title>
-        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <link rel="stylesheet" href="Web page to be online css.css">
         <meta chrest = "UFT-8">
         <meta name="viewport" content="width=device-width, initail-scale=1.0">
@@ -11,17 +11,21 @@
     </head>
     <body>
          <!-- This is the visible part of my web page-->
-         <h1>I Love music</h1>
+         <h1><span class="material-icons-outlined">favorite</span>I Love music<span class="material-icons-outlined">favorite</span></h1>
          <main>
              <p>Click here to view more about music<i><a href="https://en.wikipedia.org/wiki/Music" target="_blank"> Definition of music (lol)</a></i></p>
-             <a href="#"><img src="music-rainbow.jpg" width="300"></a>
-             <p>What can music help you?</p>
+             <a href="#"><img src="music-rainbow.jpg" width="300"></a>             
+             <p><span class="material-icons-outlined">not_listed_location</span>What can music help you?
+                <span class="material-icons-outlined">not_listed_location</span>
+            </p>
              <ol>
                  <li>It can heals you...</li>
                  <li>When ever you're lonely, it can be your friend...</li>
                  <li>It can also helps you with meditation...</li>
              </ol>
-             <p>Types of music that are useful in each situation.</p>
+             <p><span class="material-icons-outlined">expand_more</span>Types of music that are useful in each situation.
+                <span class="material-icons-outlined">expand_more</span>
+            </p>
              <ul>
                  <li>Classical music: for studying, creativity.</li>
                  <li>Acoustic music: for relaxing.</li>
@@ -31,15 +35,21 @@
              <p><b>Let's share some experience of listen to music in difference situations!!!</b></p>
              <form action="process web page.html">
                  <label for="name">What is you name? It can be a penname if you're not comfort to give name.</label><br>
+                 <span class="material-icons-outlined">question_mark</span>
                  <input type="text" placeholder="Enter Your Name" id="name" name="WhatIsYourName"><br><br>
                  <label for="song">Song's name that you want to share...</label><br>
+                 <span class="material-icons-outlined">question_mark</span>
                  <input type="text" placeholder="Enter the Song's Name" id="song" name="SongName"><br><br>
                  <label for="situation">In What Situation?</label><br>
+                 <span class="material-icons-outlined">question_mark</span>
                  <input type="text" placeholder="Enter the Situation" id="situation" name="Situation"><br><br>
                  <br>
-                 <p><b>What about playing them???</b></p>
+                 <p><span class="material-icons-outlined">contact_support</span><b>What about playing them???</b>
+                    <span class="material-icons-outlined">contact_support</span></p>
                  <label for="play">Can any music instrument?</label><br>
-                 <input type="radio" id="play" name="Play">Yes, I can. <br>
+                 <span class="material-icons-outlined">disabled_by_default</span>
+                 <input type="radio" id="play" name="Play">Yes, I can.<br>
+                 <span class="material-icons-outlined">check_box</span>
                  <input type="radio" id="never" name="Play">No, I can't.<br><br>
                  <label for="piano">Is there any (other) instrument that you want to play?(if you can play?)<br>
                  <input type="checkbox" id="piano" name="instrument">Piano</label><br>
@@ -55,9 +65,11 @@
                  <input type="checkbox" id="more" name="instrument">Other than this...</label>
                  <label for="more">
                  <input type="text" placeholder="Name of instrument" id="more" name="instrument"></label><br><br>
-                 <button type="submit">SUBMIT</button>
-                 <span id="arrow-up"><a href="Web page to be online.html"><img src="outline_keyboard_double_arrow_up_black_24dp.png"></a></span>
+                 <button type="submit">SUBMIT</button><br><br>
+                 <a href="Web page to be online.html"><span class="material-icons-outlined">arrow_upward</span></a>
+
              </form>
          </main>
     </body>
 </html>
+
